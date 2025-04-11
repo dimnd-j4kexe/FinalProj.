@@ -1,3 +1,9 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 /* General Styles */
 * {
     margin: 0;
@@ -51,7 +57,7 @@
     background: linear-gradient(-45deg, #1f1c2c, #928dab, #2c3e50, #1f1c2c);
     background-size: 400% 400%;
     animation: gradientMove 15s ease infinite;
-    min-height: 100vh; /* FULL HEIGHT of the screen */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,6 +65,7 @@
     text-align: center;
     padding: 40px;
     color: white;
+    margin: 0;
   }
   
   
