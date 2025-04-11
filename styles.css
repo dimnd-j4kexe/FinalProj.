@@ -55,9 +55,8 @@ body {
 
 /* Hero Section */
 .hero-section {
-  background: linear-gradient(135deg, #b0b0b0, #f1f1f1, #d0d0d0, #b0b0b0, #f1f1f1),
-              url('https://your-image-link.com/reflective-texture.jpg');
-  background-size: 600% 600%, cover; /* Add image and gradient */
+  background: linear-gradient(135deg, #4e4e4e, #222222, #6e6e6e, #333333, #222222);
+  background-size: 600% 600%;
   animation: gradientMove 8s ease-in-out infinite;
   min-height: 100vh;
   display: flex;
@@ -66,10 +65,10 @@ body {
   align-items: center;
   text-align: center;
   padding: 40px;
-  color: #000;
+  color: #fff;
   margin: 0;
-  filter: brightness(1.5) contrast(1.8); /* Higher brightness & contrast for more shine */
-  box-shadow: inset 0px 0px 150px rgba(255, 255, 255, 0.3); /* Add glow to simulate shine */
+  filter: brightness(1.4) contrast(1.5); /* Adjusted for a darker, shinier effect */
+  box-shadow: inset 0px 0px 150px rgba(255, 255, 255, 0.2); /* Subtle glow for shine */
 }
 
 /* Footer */
