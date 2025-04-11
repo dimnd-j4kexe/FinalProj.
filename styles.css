@@ -54,7 +54,7 @@ body, html {
   
   /* Hero Section */
   .hero-section {
-    background: linear-gradient(-45deg, #1f1c2c, #928dab, #2c3e50, #1f1c2c);
+    background: linear-gradient(-45deg, #d7d7d7, #a0a0a0, #eeeeee, #b0b0b0, #d7d7d7);
     background-size: 400% 400%;
     animation: gradientMove 15s ease infinite;
     min-height: 100vh;
@@ -64,9 +64,9 @@ body, html {
     align-items: center;
     text-align: center;
     padding: 40px;
-    color: white;
-    margin: 0;
+    color: #000;
   }
+  
   
   
   /* Footer */
