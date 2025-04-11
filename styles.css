@@ -54,10 +54,11 @@ body {
 }
 
 /* Hero Section */
+/* Hero Section */
 .hero-section {
-  background: linear-gradient(135deg, #4e4e4e, #222222, #6e6e6e, #d0d0d0, #333333); /* Changed white to a silver gray */
+  background: linear-gradient(135deg, #4e4e4e, #222222, #6e6e6e, #cccccc, #333333);
   background-size: 600% 600%;
-  animation: gradientMove 20s ease-in-out infinite; /* Increased duration and smoother timing */
+  animation: gradientMove 20s ease-in-out infinite;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -67,9 +68,10 @@ body {
   padding: 40px;
   color: #fff;
   margin: 0;
-  filter: brightness(1.4) contrast(1.5); /* Adjusted for a darker, shinier effect */
-  box-shadow: inset 0px 0px 150px rgba(255, 255, 255, 0.2); /* Subtle glow for shine */
+  filter: brightness(1.3) contrast(1.4);
+  box-shadow: inset 0px 0px 150px rgba(255, 255, 255, 0.2);
 }
+
 
 /* Footer */
 footer {
