@@ -57,7 +57,7 @@ body {
 .hero-section {
   background: linear-gradient(135deg, #4e4e4e, #222222, #6e6e6e, #333333, #222222);
   background-size: 600% 600%;
-  animation: gradientMove 8s ease-in-out infinite;
+  animation: gradientMove 20s ease-in-out infinite; /* Increased duration and smoother timing */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
