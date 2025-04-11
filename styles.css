@@ -55,7 +55,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-  background: linear-gradient(135deg, #4e4e4e, #222222, #6e6e6e, #333333, #222222);
+  background: linear-gradient(135deg, #4e4e4e, #222222, #6e6e6e, #d0d0d0, #333333); /* Changed white to a silver gray */
   background-size: 600% 600%;
   animation: gradientMove 20s ease-in-out infinite; /* Increased duration and smoother timing */
   min-height: 100vh;
