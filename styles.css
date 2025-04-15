@@ -15,8 +15,8 @@ body, html {
 
 /* Body */
 body {
-  background-color: #f5f5f7;
-  color: #333;
+  background-color: #121212; /* Dark Chrome theme */
+  color: #fff;
   font-size: 16px;
 }
 
@@ -57,7 +57,7 @@ body {
 .hero-section {
   background: linear-gradient(135deg, #4e4e4e, #222222, #6e6e6e, #333333, #222222);
   background-size: 600% 600%;
-  animation: gradientMove 20s ease-in-out infinite; /* Increased duration and smoother timing */
+  animation: gradientMove 20s ease-in-out infinite; /* Smooth gradient animation */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -67,8 +67,33 @@ body {
   padding: 40px;
   color: #fff;
   margin: 0;
-  filter: brightness(1.4) contrast(1.5); /* Adjusted for a darker, shinier effect */
+  filter: brightness(1.4) contrast(1.5); /* Adjusted for a shinier effect */
   box-shadow: inset 0px 0px 150px rgba(255, 255, 255, 0.2); /* Subtle glow for shine */
+}
+
+.hero-section h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  background-color: #00bcd4;
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transform to transition */
+}
+
+.cta-button:hover {
+  background-color: #008c9e;
+  transform: scale(1.1); /* Subtle scale effect on hover */
 }
 
 
